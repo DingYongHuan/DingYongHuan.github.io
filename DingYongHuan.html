@@ -1,0 +1,107 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>DingYongHuan's website</title>
+	</head>
+	<body>
+
+		<!-- Paragragh -->
+		<!--handings-->
+		<h1>lorm10</h1>
+		<h2>lorm10</h2>
+		<h3>lorm10</h3>
+		<h4>lorm10</h4>
+		<!--一直到h6-->
+		<!--strong 加粗-->
+		<p>Lorem <strong>ipsum dolor sit</strong> amet consectetur adipisicing.</p>
+		<!--em 斜体-->
+		<p>Lorem ipsum <em>dolor sit, amet consectetur </em>adipisicing.</p>
+		<!--超链接-->
+		<p>Lorem ipsum dolor sit amet consectetur <a href="https://google.com">adipisicing elit.</a> Laudantium, ea.</p>
+		<!--如果想在新的标签页上打开超链接，需要添加一些--> 
+		<p>Lorem ipsum dolor sit, <a href="https://google.com" target="_blank">amet consectetur</a> adipisicing elit. Perspiciatis, nostrum.</p>
+
+		<!-- Lists 列表-->
+		<!-- ul无序列表 -->
+		<!-- 结果是：	.list 1 -->
+		<ul>
+			<li>list 1</li>
+			<li>list 2</li>
+		</ul>
+
+		<!-- ol有序列表，结果为：	1.list 1 -->
+		<ol>
+			<li>list 1</li>
+			<li>list 2</li>
+		</ol>
+
+		<!--Table表格 -->
+		<table>
+			<!-- thead表头（加粗） -->
+			<thead>
+				<!-- tr横行 -->
+				<tr>
+					<!-- th中填内容(主要用来填表头内容) -->
+					<th>First name</th>
+					<th>Last name</th>
+					<th>age</th>
+					<th>email</th>
+				</tr>
+			</thead>
+			<!-- 表身 -->
+			<tbody>
+				<tr>
+					<td>Ding</td>
+					<td>YongHuan</td>
+					<td>16</td>
+					<td>abcabc.com</td>
+				</tr>
+				<!-- 可以有多行内容 -->
+				<tr>
+					<td>Ding</td>
+					<td>YongHuan</td>
+					<td>16</td>
+					<td>abcabc.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- line braker空行（不建议使用） -->
+		<br>
+		<!-- hr画水平线 -->
+		<hr>
+		<br>
+
+		<!-- Forms表单 -->
+		<form action="form.js" method="post">
+			<div>
+				<!-- 标题 -->
+				<label >First Name</label>
+				<!-- 标题后方框需要输入的内容（placeholder是方框里面内容） -->
+				<input type="text" name="firstname" placeholder="Each First Name">
+			</div>
+			<div>
+				<label >Last Name</label>
+				<input type="text" name="lastname" placeholder="Each Last Name">
+			</div>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Enter Your Email">
+			</div>
+			<!-- 提交 -->
+			<input type="submit" name="submit" value="Submit">
+		</form>
+
+		<br>
+		<!-- html无法执行命令 -->
+		<!-- 创建按钮（没有用） -->
+		<button>This is a button.</button>
+
+		<br>
+		<!-- 插入图片 -->
+		<img style="width: 100vw" src="exaples/img/img1.jpg" alt="This is an img tag.">
+
+		<!-- 增加1000个像素，使页面能翻动 -->
+		<div style="margin=top1000px"></div>
+	</body>
+</html>
